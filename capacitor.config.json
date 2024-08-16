@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.nextCapSample",
+  "appName": "qtravel",
+  "webDir": "out",
+  "bundledWebRuntime": false
+}
