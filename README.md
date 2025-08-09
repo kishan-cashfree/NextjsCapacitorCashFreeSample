@@ -11,9 +11,9 @@ Install the plugin
 
 ```bash
 
-npm i @awesome-cordova-plugins/cashfree-pg
-npm i @awesome-cordova-plugins/core
-npm i cordova-plugin-cashfree-pg
+npm i @awesome-cordova-plugins/cashfree-pg@latest
+npm i @awesome-cordova-plugins/core@latest
+npm i cordova-plugin-cashfree-pg@capacitor
 
 npx cap sync 
 npx cap sync android

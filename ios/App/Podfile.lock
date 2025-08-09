@@ -1,0 +1,115 @@
+PODS:
+  - Capacitor (7.4.2):
+    - CapacitorCordova
+  - CapacitorApp (7.0.2):
+    - Capacitor
+  - CapacitorBrowser (7.0.2):
+    - Capacitor
+  - CapacitorCommunitySafeArea (7.0.0-alpha.1):
+    - Capacitor
+  - CapacitorCordova (7.4.2)
+  - CapacitorDialog (7.0.2):
+    - Capacitor
+  - CapacitorFilesystem (7.1.4):
+    - Capacitor
+    - IONFilesystemLib (~> 1.0.1)
+  - CapacitorLocalNotifications (7.0.2):
+    - Capacitor
+  - CapacitorNetwork (7.0.2):
+    - Capacitor
+  - CapacitorPushNotifications (7.0.2):
+    - Capacitor
+  - CapacitorStatusBar (7.0.2):
+    - Capacitor
+  - CapawesomeCapacitorAppUpdate (6.1.0):
+    - Capacitor
+  - CashfreeAnalyticsSDK (2.2.0):
+    - CFNetworkSDK (= 2.2.0)
+  - CashfreePG (2.2.4):
+    - CashfreePGUISDK (= 2.2.4)
+  - CashfreePGCoreSDK (2.2.4):
+    - CashfreeAnalyticsSDK (= 2.2.0)
+  - CashfreePGUISDK (2.2.4):
+    - CashfreePGCoreSDK (= 2.2.4)
+  - CFNetworkSDK (2.2.0)
+  - CordovaPluginsStatic (7.4.2):
+    - CapacitorCordova
+    - CashfreePG (~> 2.2.4)
+  - IONFilesystemLib (1.0.1)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorBrowser (from `../../node_modules/@capacitor/browser`)"
+  - "CapacitorCommunitySafeArea (from `../../node_modules/@capacitor-community/safe-area`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDialog (from `../../node_modules/@capacitor/dialog`)"
+  - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
+  - "CapacitorLocalNotifications (from `../../node_modules/@capacitor/local-notifications`)"
+  - "CapacitorNetwork (from `../../node_modules/@capacitor/network`)"
+  - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - "CapawesomeCapacitorAppUpdate (from `../../node_modules/@capawesome/capacitor-app-update`)"
+  - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
+
+SPEC REPOS:
+  trunk:
+    - CashfreeAnalyticsSDK
+    - CashfreePG
+    - CashfreePGCoreSDK
+    - CashfreePGUISDK
+    - CFNetworkSDK
+    - IONFilesystemLib
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorBrowser:
+    :path: "../../node_modules/@capacitor/browser"
+  CapacitorCommunitySafeArea:
+    :path: "../../node_modules/@capacitor-community/safe-area"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDialog:
+    :path: "../../node_modules/@capacitor/dialog"
+  CapacitorFilesystem:
+    :path: "../../node_modules/@capacitor/filesystem"
+  CapacitorLocalNotifications:
+    :path: "../../node_modules/@capacitor/local-notifications"
+  CapacitorNetwork:
+    :path: "../../node_modules/@capacitor/network"
+  CapacitorPushNotifications:
+    :path: "../../node_modules/@capacitor/push-notifications"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CapawesomeCapacitorAppUpdate:
+    :path: "../../node_modules/@capawesome/capacitor-app-update"
+  CordovaPluginsStatic:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: 156d98aba46ec01dde72c4bbb92fa626837cad29
+  CapacitorApp: efc1e9748a8ea5d3e789cd82a4f451341cc7ac93
+  CapacitorBrowser: 45c681e7abc3b4384e54eb52bafeef1347d98fa8
+  CapacitorCommunitySafeArea: cc370b4f8d4aa340e4616acef9b73eda41ba0914
+  CapacitorCordova: 5e58d04631bc5094894ac106e2bf1da18a9e6151
+  CapacitorDialog: f23be5f188fbfedf7eca159c5d5bdab98b4c89c6
+  CapacitorFilesystem: ac0a386949ed6c295a3dffa129ecd26b881ae5be
+  CapacitorLocalNotifications: 0964df8c14ec51aadf2bb4fd6d55fdb1ccfd6721
+  CapacitorNetwork: 9b9eaeb417ec0ffa22e2bc33a4c71df10e1d6f06
+  CapacitorPushNotifications: 6ffcf5df95f17d71a1b02893549bc4727f80540c
+  CapacitorStatusBar: 5526833b87fa9c96a2a90c1322bb1f663c04505f
+  CapawesomeCapacitorAppUpdate: a0e57d43ee5ed4b19a52024241c3b177cbb1c463
+  CashfreeAnalyticsSDK: ae25b71a54607c920d519103d154d9727ca2c15a
+  CashfreePG: 6554c215b8eabc9fa13e59c847262b8ba6f29ff6
+  CashfreePGCoreSDK: 133e1ba5aeb8a89bf2188eb3312c88fcad084c75
+  CashfreePGUISDK: 5e943fcca20c45b66c9837bbb87ebbfb75c013a5
+  CFNetworkSDK: 4e431b55f607544f5ca45bc1a36a13e602f51841
+  CordovaPluginsStatic: e43822d33f1abc717882b37ca9554fe26131cd4d
+  IONFilesystemLib: 89258b8e3e85465da93127d25d7ce37f977e8a6f
+
+PODFILE CHECKSUM: f3624a4dcc7cc8308a0c98f324015b3c3b0e72aa
+
+COCOAPODS: 1.16.2

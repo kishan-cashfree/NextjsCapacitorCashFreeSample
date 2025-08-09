@@ -12,21 +12,20 @@
     "android": "npm run static && npx cap sync android && npx cap copy && npx cap run android"
   },
   "dependencies": {
-    "@awesome-cordova-plugins/cashfree-pg": "^6.8.0",
-    "@awesome-cordova-plugins/core": "^6.8.0",
-    "@capacitor-community/firebase-analytics": "^6.0.0",
-    "@capacitor-community/safe-area": "^6.0.0-alpha.6",
-    "@capacitor/android": "^6.1.2",
-    "@capacitor/app": "^5.0.6",
-    "@capacitor/browser": "^6.0.1",
-    "@capacitor/core": "^5.7.8",
-    "@capacitor/dialog": "^6.0.0",
-    "@capacitor/filesystem": "^6.0.0",
-    "@capacitor/ios": "^6.1.2",
-    "@capacitor/local-notifications": "^6.0.0",
-    "@capacitor/network": "^6.0.0",
-    "@capacitor/push-notifications": "^6.0.1",
-    "@capacitor/status-bar": "^6.0.0",
+    "@awesome-cordova-plugins/cashfree-pg": "^8.1.0",
+    "@awesome-cordova-plugins/core": "^8.1.0",
+    "@capacitor-community/safe-area": "^7.0.0-alpha.1",
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/browser": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/dialog": "^7.0.0",
+    "@capacitor/filesystem": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "@capacitor/network": "^7.0.0",
+    "@capacitor/push-notifications": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0",
     "@capawesome/capacitor-app-update": "^6.0.0",
     "@emoji-mart/react": "^1.1.1",
     "@emotion/react": "^11.11.3",
@@ -41,9 +40,7 @@
     "axios": "^1.4.0",
     "bootstrap": "^5.3.1",
     "bootstrap-datepicker": "^1.10.0",
-    "capacitor-ios-swipe": "^0.0.1",
-    "capacitor-swipe-back": "^4.0.5",
-    "cordova-plugin-cashfree-pg": "^1.0.6",
+    "cordova-plugin-cashfree-pg": "^1.0.11-cap",
     "cors": "^2.8.5",
     "date-fns": "^3.6.0",
     "dotenv": "^16.3.1",
@@ -52,7 +49,6 @@
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "file-saver": "^2.0.5",
-    "firebase": "^10.12.5",
     "flatpickr": "^4.6.13",
     "html-react-parser": "^4.0.0",
     "keen-slider": "^6.8.5",
@@ -105,6 +101,6 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.1.2"
+    "@capacitor/cli": "^7.0.0"
   }
 }
